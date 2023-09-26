@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-container::-webkit-scrollbar {
+    width: 0.5em; /* Ancho de la barra de desplazamiento */
+  }
